@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.notification {
+    background-color: #2d3748; /* Fond gris foncé */
+    color: white; /* Texte blanc */
+    border-radius: 8px; /* Bords arrondis */
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.notification a {
+    color: #4fd1c5; /* Bleu ciel */
+    font-weight: bold;
+    text-decoration: underline; /* Soulignement */
+    text-decoration-color: #4fd1c5; /* Couleur du soulignement bleu ciel */
+}
+
+.notification a:hover {
+    text-decoration: underline;
+    text-decoration-color: #3b9d96; /* Couleur de survol légèrement différente */
+    color: #38bdf8; /* Changer la couleur lors du survol */
+}
+
+.notification button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.notification button:hover {
+    color: red;
+}
